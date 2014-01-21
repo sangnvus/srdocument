@@ -1,0 +1,215 @@
+QN=1 (1514)	Which one of the following statements about required condition is true? 
+a.	Required pre-condition captures an obligation.
+b.	Required trigger condition captures an additional effect.
+c.	Required post-condition captures a permission.
+d.	none of the others
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=2 (1512)	Domain pre- and post-conditions are prescriptive.   
+a.	True
+b.	False
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=3 (2926)	Which of the following is a condition on the operation's output states to ensure a goal? This condition captures an additional effect that the operation must have specifically to ensure the goal. 
+a.	Domain pre-condition
+b.	Required post-condition
+c.	Required pre-condition
+d.	Required trigger condition
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=4 (1519)	In _______ scheme, the agent instance applies the operation when it is really obliged to do so; that is, when one of the operation's required trigger conditions becomes true.  
+a.	an eager behaviour
+b.	a lazy behaviour
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=5 (2924)	Which of the following is a necessary condition on the operation's input states to ensure a goal when domain pre-condition is true, operation may be applied only if this condition is true?    
+a.	Domain pre-condition
+b.	Domain post-condition
+c.	Required pre-condition
+d.	Required trigger condition
+ANSWER:	C
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=6 (1513)	The specification of an operation therefore includes a set of prescriptive conditions on operation applications. These conditions are aimed at ensuring that ______.    
+a.	the operation is dependent on the goals
+b.	the goals underlying the operation are satisfied
+c.	the operation associates with the goals
+d.	None of the others
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=7 (2920)	Which of the following provides descriptions of tasks and procedures to be jointly performed in the environment for satisfaction of the system's goals? 
+a.	Goal model
+b.	Object model
+c.	Obstacles model
+d.	Operation model
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=8 (1516)	Which one of the following statements is false? 
+a.	An operation may operationalizes multiple goals.
+b.	A goal may be operationalized by multiple operations.
+c.	Multiple agents perform an operation.
+d.	An agent may perform multiple operations.
+ANSWER:	C
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=9 (1517)	An operationalization diagram is an annotated graph showing the system operations, their ______ to goals in the goal model and input/output links to objects in the object model.   
+a.	performance links
+b.	operationalization links
+c.	capability links
+d.	None of the others
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=10 (2925)	Which of the following is a sufficient condition on the operation's input states to ensure a goal when domain pre-condition is true, operation must be applied as soon as it is true?   
+a.	Domain pre-condition
+b.	Domain post-condition
+c.	Required pre-condition
+d.	Required trigger condition
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=11 (2922)	Which of the following designates an object instance on which the operation acts (The state of this instance is changed by the application of the operation.)?  
+a.	An input variable
+b.	An output variable
+c.	State variables
+d.	Instance variables
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=12 (2921)	Which of the following designates an object instance to which the operation applies (The state of this instance affects the application of the operation.)? 
+a.	An input variable
+b.	An output variable
+c.	State variables
+d.	Instance variables
+ANSWER:	A
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=13 (1515)	The operation is not applied if a trigger condition becomes true in a state where the operation's domain pre-condition is not true. 
+a.	True
+b.	False
+ANSWER:	A
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=14 (1510)	A/An ________ designates an object instance to which the operation applies. The state of this instance affects the application of the operation.    
+a.	State variable
+b.	Input variable
+c.	Out variable
+d.	None of the others
+ANSWER:	B
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=15 (2917)	A goal G is correctly operationalized into Op1, …,Opn if and only if the specification Spec(Op1), …, Spec(Opn) of these operations in term of domain and required conditions are necessary and sufficient for ensure G; that are the following, EXCEPT? 
+a.	{Spec(Op1), …, Spec(Opn) } |=  G
+b.	{Spec(Op1), …, Spec(Opn) } (Not Satisfied) false
+c.	G |= {Spec(Op1), …, Spec(Opn) }
+d.	{Spec(Op1), …, Spec(Opn) }  |= false
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=16 (2927)	The following statements describe an overall semantic picture of what a system model conveys when we integrate its goals, object, agent, and operation model components, EXCEPT?    
+a.	The system's behavioral goals prescribe a maximal set of admissible system behaviors. These behaviors are composed of parallel agent behaviors.
+b.	A behavior of an agent instance captured by a sequence of state transitions for the object attributes and associations that the agent controls.
+c.	The state transitions correspond to applications of operations performed by the agent; they take the smallest time unit.
+d.	Agent does not involve synchronously from state to state according to the obligations and permissions prescribed on their operations.
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=17 (2919)	Which of the following is used for defining development work units, estimating development costs and schedules, and writing user manual?    
+a.	Goal model
+b.	Object model
+c.	Obstacles model
+d.	Operation model
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=18 (2918)	Which of the following captures the system operations in term of their individual features and their links to goal, object, and agent models?   
+a.	Goal model
+b.	Object model
+c.	Obstacles model
+d.	Operation model
+e.	Behavioral model
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=19 (1511)	A particular application of the operation yields a state _______ from a state in InputState to a state in OutputState.  
+a.	transformation
+b.	exchange
+c.	transition
+d.	none of the others
+ANSWER:	C
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=20 (2923)	Which of the following specifies the operation's input-output relation by declaring the input variables and output variables and, for each of them, the object to which the instance designated by the variable belongs?    
+a.	The signature of an operation
+b.	Name of an operation
+c.	Category of an operation
+d.	Definition of an operation
+ANSWER:	A
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=21 (2915)	An operation model may be used for the following purposes, EXCEPT?  
+a.	The model part covering software-to-be operations yields software specifications for input to the development process.
+b.	The model part covering environment operations yields provides descriptions of tasks and procedures to be jointly performed in the environment for satisfaction of the system's goals.
+c.	The operation model can be used for defining development work units, estimating development costs and schedules.
+d.	It shows the distribution of responsibilities within the system and provides a basis for load analysis.
+ANSWER:	D
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
+QN=22 (1518)	A use case diagram provides an outline view of an operation model by showing the operations that an agent performs together with ________ with other agents.    
+a.	interaction links.
+b.	responsibility links
+c.	operationalization links
+d.	None of the others
+ANSWER:	A
+MARK:	1
+UNIT:	Chap12
+MIX CHOICES:	Yes
+
